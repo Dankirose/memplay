@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mem Play</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/rock.png" type="image/x-icon">
+</head>
+<body>
+    <div class="game">
+        <h1>Rock? Scissors? Paper?</h1>
+        <div class="counter-block">
+            <div class="count count-user">0</div>
+            <span>:</span>
+            <div class="count count-comp">0</div>
+        </div>
+        <div class="figure-container">
+            <div class="user-field">
+                <button class="field rock" data-field="r"></button> <!--тут можно конечно и айдишки прописать-->
+                <button class="field scissors" data-field="s"></button>
+                <button class="field paper" data-field="p"></button>
+            </div>
+            <div class="comp-field">
+                <button class="field rock" data-field="r"></button>
+                <button class="field scissors" data-field="s"></button>
+                <button class="field paper" data-field="p"></button>
+            </div>
+        </div>
+        <h3 class="result">Make a choice!</h3>
+    </div>
+    <div class="buttons">
+        <button class="play">Replay</button>
+    </div>
+    <audio src="#" class="sound"></audio> <!--жесткий фонк для настоящик олдскулов-->
+    <script src="script.js"></script>
+</body>
+</html>
